@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
+import com.jkantech.dailyexpenses.login.LoginActivity
 import com.jkantech.dailyexpenses.utils.CustomDataStore
 
 class IntroActivity : AppCompatActivity() {
@@ -23,7 +24,7 @@ class IntroActivity : AppCompatActivity() {
             startActivity(Intent(this,MainActivity::class.java))
             finish()
         }else{
-            startActivity(Intent(this,LoginActivity::class.java))
+            startActivity(Intent(this, LoginActivity::class.java))
             finish()
         }
 

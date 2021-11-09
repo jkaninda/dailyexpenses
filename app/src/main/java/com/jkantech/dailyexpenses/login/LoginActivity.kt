@@ -1,18 +1,16 @@
-package com.jkantech.dailyexpenses
+package com.jkantech.dailyexpenses.login
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.view.View
-import android.widget.Button
 import android.widget.EditText
 import androidx.appcompat.widget.AppCompatButton
-import com.jkantech.dailyexpenses.data.LoginData
+import com.jkantech.dailyexpenses.MainActivity
+import com.jkantech.dailyexpenses.R
 import com.jkantech.dailyexpenses.data.LoginResponseData
-import com.jkantech.dailyexpenses.data.ResponseData
 import com.jkantech.dailyexpenses.databinding.ActivityLoginBinding
-import com.jkantech.dailyexpenses.model.User
 import com.jkantech.dailyexpenses.retrofiit.APIService
 import com.jkantech.dailyexpenses.utils.CustomDataStore
 import com.jkantech.dailyexpenses.utils.Utils
@@ -75,8 +73,6 @@ class LoginActivity : AppCompatActivity() {
                                 CustomDataStore.store("role",it.data.role)
                                 CustomDataStore.store("token",it.data.token)
                                 successLogin()
-
-
                             }else{
                                 Utils.showToast(this@LoginActivity, it.message)
 
@@ -110,7 +106,7 @@ class LoginActivity : AppCompatActivity() {
     }
 
     private fun successLogin(){
-        startActivity(Intent(this,MainActivity::class.java))
+        startActivity(Intent(this, MainActivity::class.java))
         finish()
     }
 }
