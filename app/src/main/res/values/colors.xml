@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#A42F3A</color>
+    <color name="purple_500">#CE1021</color>
+    <color name="purple_700">#CE1021</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="background">#E9ECFC</color>
+    <color name="dialog_background">#FFFFFFFF</color>
+
+    <!--
+    <color name="background">#CAE4F2</color>
+        <color name="purple_200">#ED1B24</color>
+    <color name="purple_500">#ED1B24</color>
+    <color name="purple_700">#ED1B24</color>
+    <color name="teal_200">#ED1B24</color>
+    <color name="teal_700">#F44336</color>
+    -->
+    <color name="news_card">#fff</color>
+    <color name="news_card2">#ffdddd</color>
+    <color name="news_card3">#E36138</color>
+    <color name="green">#00C853</color>
+
+
+    <color name="card1">#642E9D</color>
+    <color name="card2">#16CAC8</color>
+    <color name="card3">#FDD95E</color>
+    <color name="card4">#F57B76</color>
+    <color name="texthint">#66758e</color>
+
+    <color name="colorPrimary">#2196F3</color>
+    <color name="theme3Accent">#3C6DF2</color>
+    <color name="theme3">#2196F3</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="colorAccent">#FF5722</color>
+
+    <color name="mainText">#202021</color>
+    <color name="textAlt">#8D8F97</color>
+    <color name="mainBackground">#ffffff</color>
+
+    <!--colors for modern ui-->
+    <color name="whiteTextColor">#fff</color>
+    <color name="primaryTextColor">#00a5ff</color>
+    <color name="loginBkColor">#f0f0f0</color>
+
+    <!--colros for card-->
+    <color name="whiteCardColor">#fff</color>
+    <color name="aboutcolor">#7C4DFF</color>
+    <color name="order1">#16CAC8</color>
+    <color name="order2">#FF6D00</color>
+    <color name="order3">#00C853</color>
+    <color name="order4">#388386</color>
+
+    <color name="home_color">#DCE2ED</color>
+
+    <!--
+
+        <resources>
+            <color name="colorPrimary">#008000</color>
+            <color name="colorPrimaryDark">#ffffff</color>
+            <color name="colorAccent">#25D366</color>
+
+            <color name="mainText">#2D313D</color>
+            <color name="textAlt">#8D8F97</color>
+            <color name="mainBackground">#ffffff</color>
+
+
+            <color name="bright_pink">#FF007F</color>
+            <color name="orange">#FF7F00</color>
+            <color name="yellow">#FFFF00</color>
+            <color name="spring_green">#00FF7F</color>
+            <color name="red">#FF0000</color>
+            <color name="cyan">#00FFFF</color>
+            <color name="azure">#007FFF</color>
+            <color name="blue">#0000FF</color>
+            <color name="violet">#7F00FF</color>
+            <color name="magenta">#FF00FF</color>
+            <color name="green">#00FF00</color>
+
+            <color name="button_green">#00FF7F</color>
+            <color name="button_text_color">#000000</color>
+            <color name="button_red">#FF0000</color>
+
+            <color name="dark_red">#7C0202</color>
+-->
+
+    <color name="one">#FFEBEE</color>
+    <color name="two">#FF8A80</color>
+    <color name="three">#EA80FC</color>
+    <color name="four">#B3E5FC</color>
+    <color name="five">#84FFFF</color>
+    <color name="six">#FFF59D</color>
+    <color name="seven">#97EC97</color>
+    <color name="eight">#7E7ECD</color>
+    <color name="gray">#2d2d2d</color>
+
+
+    <color name="secondaryText">#757575</color>
+    <color name="dividerColor">#BDBDBD</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color>
+
+    <!--colors for profile-->
+    <color name="profilePrimaryDark">#FF3B30</color>
+    <color name="profileAccentColor">#F7F7F7</color>
+    <color name="profileBackground">#fff</color>
+    <color name="blackTextColor">#000</color>
+    <color name="profileEditTextColor">#707070</color>
+    <color name="contentTextColor">#020000</color>
+</resources>

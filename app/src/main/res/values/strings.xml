@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Daily Expenses</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_expense">Expenses</string>
+    <string name="title_about">About</string>
+    <string name="today">Today</string>
+    <string name="title_total_loan">Entrée total</string>
+    <string name="title_available_amount">En compte</string>
+    <string name="title_total">Total</string>
+    <string name="title_loan">Entrée</string>
+    <string name="title_valide">\?</string>
+    <string name="login_username">Nom d\'utilisateur</string>
+    <string name="login_password">Mot de passe</string>
+    <string name="server_not_found">Une erreur de communication avec le serveur est survenue, veuillez réessayer plus tard</string>
+
+</resources>

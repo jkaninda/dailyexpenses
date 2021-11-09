@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/loginCard"
+    app:cardCornerRadius="@dimen/loginCardRadius"
+    android:elevation="5dp"
+    android:layout_gravity="center"
+    android:layout_marginTop="@dimen/loginViewsMargin"
+    android:layout_marginBottom="@dimen/loginViewsMargin"
+    tools:showIn="@layout/activity_login"
+    android:background="@color/whiteCardColor">
+
+
+
+    <LinearLayout
+        style="@style/linearParent"
+        android:layout_gravity="center"
+        android:padding="@dimen/loginViewsMargin">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            />
+
+        <TextView
+            style="@style/headerTextPrimary"
+            android:text="Connexion"
+            android:textColor="?colorPrimary"
+            android:fontFamily="@font/googlesans_bold"
+            android:layout_marginTop="@dimen/loginViewsMargin"/>
+
+
+
+        <EditText
+            android:id="@+id/username"
+            style="@style/loginStyle"
+            android:hint="@string/login_username"
+            android:maxLines="1"
+            android:textAlignment="center"
+            android:layout_marginTop="20sp"
+            android:inputType="textEmailAddress"
+            />
+
+
+
+
+        <EditText
+            android:id="@+id/password"
+            style="@style/loginStyle"
+            android:maxLines="1"
+            android:textColor="@color/white"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            android:layout_marginTop="20sp"
+            android:hint="@string/login_password"/>
+
+
+
+        <TextView
+            style="@style/viewParent"
+            android:text="Avez-vous perdu votre mot de passe?"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="@dimen/newsMoreTextSize"
+            android:layout_gravity="end"
+            android:fontFamily="@font/open_sans"
+            android:visibility="gone"
+            android:layout_marginTop="10dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/loginButton"
+            android:text="Se connecter"
+            style="@style/loginButton"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/loginViewsMargin"/>
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
